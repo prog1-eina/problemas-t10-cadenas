@@ -1,39 +1,37 @@
-﻿/********************************************************************************
+﻿/******************************************************************************\
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
- * Última revisión: 7 de noviembre de 2018
+ * Última revisión: 7 de noviembre de 2020
  * Resumen: Soluciones a los problemas de Programación 1 planteados en la clase
  *          de problemas del tema 10.
- * Codificación de caracteres original de este fichero: UTF-8 con BOM
-\********************************************************************************/
+\******************************************************************************/
 
 #include <iostream>
+#include <string>
 #include <cctype>
 using namespace std;
 
 /*
- * Pre:  La cadena «cad» finaliza con una componente cuyo valor es el carácter
- *       nulo ('\0').
- * Post: Ha devuelto el número de componentes de la cadena «cad» cuyo valor
- *       es el de una letra mayúscula o minúscula del alfabeto inglés.
+ * Pre:  ---
+ * Post: Ha devuelto el número de caracteres de la cadena «cad» cuyo valor es el 
+ *       de una letra mayúscula o minúscula del alfabeto inglés.
  */
-int contarLetras(const char cad[]) {
-    int cuenta = 0;
-    int i = 0;
-    while (cad[i] != '\0') {
-        if (isalpha(cad[i])) {
+unsigned int contarLetras(const string cad) {
+    unsigned int cuenta = 0;
+    unsigned int longitud = cad.length();
+    for (unsigned int i = 0; i < longitud; i++) {
+        if (isalpha(cad.at(i))) {
             cuenta++;
         }
-        i++;
      }
     return cuenta;
 }
 
-/********************************************************************************/
+/******************************************************************************/
 /*
  * Pre:  ---
- * Post: Ha probado la función contarLetras. Debería escribir 6 veces «true» en la
- *       pantalla
+ * Post: Ha probado la función contarLetras. Debería escribir 6 veces «true» en 
+ *       la pantalla
  */
 int main() {
     cout << boolalpha;
