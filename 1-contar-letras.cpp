@@ -18,8 +18,7 @@ using namespace std;
  */
 unsigned int contarLetras(const string cad) {
     unsigned int cuenta = 0;
-    unsigned int longitud = cad.length();
-    for (unsigned int i = 0; i < longitud; i++) {
+    for (unsigned int i = 0; i < cad.length(); i++) {
         if (isalpha(cad.at(i))) {
             cuenta++;
         }
