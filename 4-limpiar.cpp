@@ -1,10 +1,11 @@
 ﻿/******************************************************************************\
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
- * Última revisión: 8 de noviembre de 2020
+ * Última revisión: 16 de noviembre de 2020
  * Resumen: Soluciones a los problemas de Programación 1 planteados en la clase
  *          de problemas del tema 10 (cadenas de caracteres).
- *          Problema 3 del examen de 1.ª convocatoria del curso 2018-19
+ *          Basado en el problema 3 del examen de 1.ª convocatoria del curso 
+ *          2018-19
 \******************************************************************************/
 #include <cctype>
 #include <iostream>
@@ -13,7 +14,7 @@ using namespace std;
 
 /*
  * Pre:  «palabra» es una cadena de caracteres que no contiene ningún
- *       carácter blanco (ni espacios en blanco, tabulaciones o caracteres de
+ *       carácter blanco (ni espacios en blanco, tabuladores o caracteres de
  *       cambio de línea).
  * Post: Devuelve una cadena de caracteres cuyo contenido es el de las letras
  *       del alfabeto inglés de «palabra», en el mismo orden que en «palabra»,
