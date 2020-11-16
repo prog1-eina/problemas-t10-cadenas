@@ -21,7 +21,7 @@ unsigned int numeroPalabrasEnCamelCase(string cadena) {
     }
     else {
         unsigned int numPalabras = 1;
-        for (int i = 0; i < cadena.length() - 1; i++) {
+        for (unsigned int i = 0; i < cadena.length() - 1; i++) {
             if (islower(cadena.at(i)) && isupper(cadena.at(i + 1))) {
                 numPalabras++;
             }
