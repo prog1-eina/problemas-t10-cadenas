@@ -28,9 +28,8 @@ unsigned contarLetras(const string cad) {
 
 /******************************************************************************/
 /*
- * Pre:  ---
- * Post: Ha probado la función contarLetras. Debería escribir 6 veces «true» en 
- *       la pantalla
+ * Programa de pruebas de la función «contarLetras».
+ * Debería escribir 6 veces «true» en la pantalla.
  */
 int main() {
     cout << boolalpha;
