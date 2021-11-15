@@ -32,9 +32,8 @@ unsigned numeroPalabrasEnCamelCase(const string cadena) {
 
 /******************************************************************************/
 /*
- * Pre:  ---
- * Post: Ha probado la función contarLetras. Debería escribir 7 veces «true» en 
- *       la pantalla
+ * Programa de pruebas de la función «numeroPalabrasEnCamelCase».
+ * Debería escribir 7 veces «true» en la pantalla.
  */
 int main() {
     cout << boolalpha;
