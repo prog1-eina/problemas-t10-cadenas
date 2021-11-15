@@ -17,9 +17,14 @@ using namespace std;
  */
 string concatenar(const string prefijo, const unsigned numero, 
                   const string sufijo) {
-    char decenas = numero / 10 + '0';
-    char unidades = numero % 10 + '0';
-    return prefijo + decenas + unidades + sufijo;
+    string cadNumero;
+    if (numero < 10) {
+        cadNumero = "0" + to_string(numero);
+    }
+    else {
+        cadNumero = to_string(numero);
+    }
+    return prefijo + cadNumero + sufijo;
 }
 
 
