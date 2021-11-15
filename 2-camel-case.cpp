@@ -15,7 +15,7 @@ using namespace std;
  * Pre:  Todos los caracteres de «cadena» son letras del alfabeto inglés.
  * Post: Ha devuelto el número de palabras individuales que forman «cadena»
  */
-unsigned numeroPalabrasEnCamelCase(string cadena) {
+unsigned numeroPalabrasEnCamelCase(const string cadena) {
     if (cadena.length() == 0) {
         return 0;
     }
