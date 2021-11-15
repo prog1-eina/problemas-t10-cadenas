@@ -59,7 +59,7 @@ string concatenarEnCamelCase(const string palabras[],
  * Programa de pruebas de la función «concatenarEnCamelCase».
  * Debería escribir en la pantalla:
  * 
- *     enUnLugarDeLaMancha
+ *     enUnLugarDeLaManchaDeCuyoNombreNoQuieroAcordarme
  * 
  *     ArrayIndexOutOfBoundsException
  *     NaCl
@@ -67,18 +67,18 @@ string concatenarEnCamelCase(const string palabras[],
  * dejando una línea en blanco entre la primera y la tercera.
  */
 int main() {
-    const string PRUEBA_1[] = {"en", "un", "lugar", "de", "la", "mancha"};
-    cout << concatenarEnCamelCase(PRUEBA_1, 6) << endl;
+    const string QUIJOTE[] = {"en", "un", "lugar", "de", "la", "mancha", "de", "cuyo", "nombre", "no", "quiero", "acordarme"};
+    cout << concatenarEnCamelCase(QUIJOTE, 12) << endl;
 
     // Prueba con 0 componentes
-    cout << concatenarEnCamelCase(PRUEBA_1, 0) << endl;
+    cout << concatenarEnCamelCase(QUIJOTE, 0) << endl;
 
-    const string PRUEBA_2[] = {"Array", "index", "out", "of", "bounds", "exception"};
-    cout << concatenarEnCamelCase(PRUEBA_2, 6) << endl;
+    const string JAVA[] = {"Array", "index", "out", "of", "bounds", "exception"};
+    cout << concatenarEnCamelCase(JAVA, 6) << endl;
 
     // Prueba con cadenas vacías
-    const string PRUEBA_3[] = {"", "na", "", "", "cl", ""};
-    cout << concatenarEnCamelCase(PRUEBA_3, 6) << endl;
+    const string SAL[] = {"", "na", "", "", "cl", ""};
+    cout << concatenarEnCamelCase(SAL, 6) << endl;
 
     return 0;
 }
