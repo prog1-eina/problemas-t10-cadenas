@@ -15,13 +15,13 @@ using namespace std;
  * Pre:  Todos los caracteres de «cadena» son letras del alfabeto inglés.
  * Post: Ha devuelto el número de palabras individuales que forman «cadena»
  */
-unsigned int numeroPalabrasEnCamelCase(string cadena) {
+unsigned numeroPalabrasEnCamelCase(string cadena) {
     if (cadena.length() == 0) {
         return 0;
     }
     else {
-        unsigned int numPalabras = 1;
-        for (unsigned int i = 0; i < cadena.length() - 1; i++) {
+        unsigned numPalabras = 1;
+        for (unsigned i = 0; i < cadena.length() - 1; i++) {
             if (islower(cadena.at(i)) && isupper(cadena.at(i + 1))) {
                 numPalabras++;
             }

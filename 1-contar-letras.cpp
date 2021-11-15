@@ -16,9 +16,9 @@ using namespace std;
  * Post: Ha devuelto el número de caracteres de la cadena «cad» cuyo valor es el 
  *       de una letra mayúscula o minúscula del alfabeto inglés.
  */
-unsigned int contarLetras(const string cad) {
-    unsigned int cuenta = 0;
-    for (unsigned int i = 0; i < cad.length(); i++) {
+unsigned contarLetras(const string cad) {
+    unsigned cuenta = 0;
+    for (unsigned i = 0; i < cad.length(); i++) {
         if (isalpha(cad.at(i))) {
             cuenta++;
         }

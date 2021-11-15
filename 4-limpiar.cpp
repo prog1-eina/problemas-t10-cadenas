@@ -37,7 +37,7 @@ using namespace std;
  */
 string limpiar(const string palabra) {
     string resultado = "";
-    for(unsigned int i = 0; i < palabra.length(); i++) {
+    for(unsigned i = 0; i < palabra.length(); i++) {
         if (isalpha(palabra.at(i))) {
             resultado += tolower(palabra.at(i));
         }
@@ -52,10 +52,10 @@ string limpiar(const string palabra) {
  * su especificación.
  */
 int main() {
-    const unsigned int NUM_PRUEBAS = 9;
+    const unsigned NUM_PRUEBAS = 9;
     const string PRUEBAS[NUM_PRUEBAS] = { "", "En", "un", "Mancha,", 
                             "corredor.", "-¡Oh!", "¿Duermen?", "1604", "H2SO4"};
-    for (unsigned int i = 0; i < NUM_PRUEBAS; i++) {
+    for (unsigned i = 0; i < NUM_PRUEBAS; i++) {
         cout << '\"' << limpiar(PRUEBAS[i]) << '\"' << endl;
     }
 

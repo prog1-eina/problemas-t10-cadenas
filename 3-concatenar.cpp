@@ -15,7 +15,7 @@ using namespace std;
  *       «prefijo» con la representación decimal de exactamente dos dígitos de
  *       «numero» y con la cadena «sufijo».
  */
-string concatenar(const string prefijo, const unsigned int numero, 
+string concatenar(const string prefijo, const unsigned numero, 
                   const string sufijo) {
     char decenas = numero / 10 + '0';
     char unidades = numero % 10 + '0';
@@ -29,8 +29,8 @@ string concatenar(const string prefijo, const unsigned int numero,
  * en el examen de 2.ª convocatoria del curso 2017-18.
  */
 int main() {
-    const unsigned int NUM_ETAPAS = 21;   
-    for (unsigned int etapa = 1; etapa <= NUM_ETAPAS; etapa++) {
+    const unsigned NUM_ETAPAS = 21;   
+    for (unsigned etapa = 1; etapa <= NUM_ETAPAS; etapa++) {
         cout << concatenar("clasificacion-etapa-", etapa, ".dat") << endl;
     }
     return 0;
