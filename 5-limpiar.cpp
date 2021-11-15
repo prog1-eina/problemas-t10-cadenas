@@ -37,7 +37,7 @@ using namespace std;
  */
 string limpiar(const string palabra) {
     string resultado = "";
-    for(unsigned i = 0; i < palabra.length(); i++) {
+    for (unsigned i = 0; i < palabra.length(); i++) {
         if (isalpha(palabra.at(i))) {
             resultado += tolower(palabra.at(i));
         }
