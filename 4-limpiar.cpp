@@ -56,7 +56,7 @@ int main() {
     const string PRUEBAS[NUM_PRUEBAS] = { "", "En", "un", "Mancha,", 
                             "corredor.", "-¡Oh!", "¿Duermen?", "1604", "H2SO4"};
     for (unsigned i = 0; i < NUM_PRUEBAS; i++) {
-        cout << '\"' << limpiar(PRUEBAS[i]) << '\"' << endl;
+        cout << '"' << limpiar(PRUEBAS[i]) << '"' << endl;
     }
 
     return 0;
