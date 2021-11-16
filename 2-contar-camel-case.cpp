@@ -5,7 +5,7 @@
  * Resumen: Soluciones a los problemas de Programación 1 planteados en la clase
  *          de problemas del tema 10.
  * Nota: El programa completo está contenido en este fichero, por lo que puede 
- *       compilarse y ejecutarse con la extensión Run Code de Visual Studio 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
  *       Code.
  *       También puede compilarse desde la terminal través de la orden
  *           g++ -Wall -Wextra 2-contar-camel-case.cpp -o 2-contar-camel-case
