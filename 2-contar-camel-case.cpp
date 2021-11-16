@@ -4,6 +4,15 @@
  * Última revisión: 16 de noviembre de 2020
  * Resumen: Soluciones a los problemas de Programación 1 planteados en la clase
  *          de problemas del tema 10.
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Run Code de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 2-contar-camel-case.cpp -o 2-contar-camel-case
+ *       y ejecutarse en Windows a través de la orden
+ *           .\2-contar-camel-case.exe
+ *       o en Linux y macOS
+ *           ./2-contar-camel-case
 \******************************************************************************/
 
 #include <iostream>

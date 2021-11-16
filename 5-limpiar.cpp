@@ -6,6 +6,15 @@
  *          de problemas del tema 10 (cadenas de caracteres).
  *          Basado en el problema 3 del examen de 1.ª convocatoria del curso 
  *          2018-19
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Run Code de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 5-limpiar.cpp -o 5-limpiar
+ *       y ejecutarse en Windows a través de la orden
+ *           .\5-limpiar.exe
+ *       o en Linux y macOS
+ *           ./5-limpiar
 \******************************************************************************/
 #include <cctype>
 #include <iostream>
