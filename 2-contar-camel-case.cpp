@@ -21,7 +21,9 @@
 using namespace std;
 
 /*
- * Pre:  Todos los caracteres de «cadena» son letras del alfabeto inglés.
+ * Pre:  Todos los caracteres de «cadena» son letras del alfabeto inglés y 
+ *       «cadena» representan una cadena en «camelCase» en la que cada palabra
+ *       individual que la forma tiene al menos dos caracteres.
  * Post: Ha devuelto el número de palabras individuales que forman «cadena»
  */
 unsigned numeroPalabrasEnCamelCase(const string cadena) {

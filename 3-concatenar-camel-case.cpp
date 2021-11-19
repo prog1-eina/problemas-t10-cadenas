@@ -37,7 +37,9 @@ string ponerMayusculaInicial(const string palabra) {
 }
 
 /*
- * Pre:  El vector «palabras» tiene al menos «numPalabras» componentes.
+ * Pre:  El vector «palabras» tiene al menos «numPalabras» componentes y todos
+ *       los caracteres todas las componentes del vector «palabras» son letras
+ *       del alfabeto inglés.
  * Post: Ha devuelto la cadena resultante de concatenar todas las palabras del 
  *       vector «palabras» utilizando CamelCase.
  */
@@ -76,7 +78,8 @@ string concatenarEnCamelCase(const string palabras[],
  * dejando una línea en blanco entre la primera y la tercera.
  */
 int main() {
-    const string QUIJOTE[] = {"en", "un", "lugar", "de", "la", "mancha", "de", "cuyo", "nombre", "no", "quiero", "acordarme"};
+    const string QUIJOTE[] = {"en", "un", "lugar", "de", "la", "mancha", "de", 
+            "cuyo", "nombre", "no", "quiero", "acordarme"};
     cout << concatenarEnCamelCase(QUIJOTE, 12) << endl;
 
     // Prueba con 0 componentes
