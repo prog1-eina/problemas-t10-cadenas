@@ -22,7 +22,7 @@ using namespace std;
 
 /*
  * Pre:  ---
- * Post: Ha devuelto el número de caracteres de la cadena «cad» cuyo valor es el 
+ * Post: Devuelve el número de caracteres de la cadena «cad» cuyo valor es el 
  *       de una letra mayúscula o minúscula del alfabeto inglés.
  */
 unsigned contarLetras(const string cad) {

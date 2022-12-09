@@ -28,7 +28,7 @@ using namespace std;
  * Post: Devuelve una cadena de caracteres cuyo contenido es el de las letras
  *       del alfabeto inglés de «palabra», en el mismo orden que en «palabra»,
  *       pero siempre en sus versiones minúsculas. Cualquier otro carácter de 
- *       «palabra» no ha sido copiado en la cadena devuelta.
+ *       «palabra» no se copia en la cadena devuelta.
  *
  *       Ejemplos:
  *
