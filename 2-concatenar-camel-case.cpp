@@ -38,7 +38,7 @@ string ponerMayusculaInicial(const string palabra) {
 
 /*
  * Pre:  El vector «palabras» tiene al menos «numPalabras» componentes y todos
- *       los caracteres todas las componentes del vector «palabras» son letras
+ *       los caracteres de todas las componentes del vector «palabras» son letras
  *       del alfabeto inglés.
  * Post: Devuelve la cadena resultante de concatenar todas las palabras del 
  *       vector «palabras» utilizando CamelCase.
