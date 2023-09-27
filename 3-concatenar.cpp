@@ -29,8 +29,7 @@ string concatenar(const string prefijo, const unsigned numero,
     string cadNumero;
     if (numero < 10) {
         cadNumero = "0" + to_string(numero);
-    }
-    else {
+    } else {
         cadNumero = to_string(numero);
     }
     return prefijo + cadNumero + sufijo;

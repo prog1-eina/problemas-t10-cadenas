@@ -30,8 +30,7 @@ string ponerMayusculaInicial(const string palabra) {
         string resultado = palabra;
         resultado.at(0) = toupper(resultado.at(0));
         return resultado;
-    }
-    else {
+    } else {
         return "";
     }
 }
