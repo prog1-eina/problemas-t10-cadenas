@@ -4,15 +4,15 @@
  * Última revisión: 8 de noviembre de 2020
  * Resumen: Soluciones a los problemas de Programación 1 planteados en la clase
  *          de problemas del tema 10.
- * Nota: El programa completo está contenido en este fichero, por lo que puede 
- *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
- *       Code.
- *       También puede compilarse desde la terminal través de la orden
- *           g++ -Wall -Wextra 4-concatenar.cpp -o 4-concatenar
- *       y ejecutarse en Windows a través de la orden
- *           .\4-concatenar.exe
- *       o en Linux y macOS
- *           ./4-concatenar
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 4-concatenar.cpp -o 4-concatenar
+ *       y ejecutarse en Windows a través de la orden
+ *           .\4-concatenar.exe
+ *       o en Linux y macOS
+ *           ./4-concatenar
 \******************************************************************************/
 #include <string>
 #include <iostream>
