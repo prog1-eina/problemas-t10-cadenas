@@ -31,7 +31,7 @@ unsigned contarLetras(const string cad) {
         if (isalpha(cad.at(i))) {
             cuenta++;
         }
-     }
+    }
     return cuenta;
 }
 
