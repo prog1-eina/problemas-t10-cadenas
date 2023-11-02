@@ -26,11 +26,9 @@ using namespace std;
  */
 string concatenar(const string prefijo, const unsigned numero, 
                   const string sufijo) {
-    string cadNumero;
+    string cadNumero = to_string(numero);
     if (numero < 10) {
-        cadNumero = "0" + to_string(numero);
-    } else {
-        cadNumero = to_string(numero);
+        cadNumero = "0" + cadNumero;
     }
     return prefijo + cadNumero + sufijo;
 }
