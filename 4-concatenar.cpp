@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
  * Última revisión: 8 de noviembre de 2020
@@ -13,7 +13,7 @@
  *           .\4-concatenar.exe
  *       o en Linux y macOS
  *           ./4-concatenar
-\******************************************************************************/
+ *****************************************************************************/
 #include <string>
 #include <iostream>
 using namespace std;
@@ -35,9 +35,9 @@ string concatenar(const string prefijo, const unsigned numero,
 
 
 /*
- * Programa de prueba de la función «concatenar», que muestra en la pantalla los
- * resultados de invocar a la misma con las cadenas con las que se le invocaría 
- * en el examen de 2.ª convocatoria del curso 2017-18.
+ * Programa de prueba de la función «concatenar», que muestra en la pantalla
+ * los resultados de invocar a la misma con las cadenas con las que se le
+ * invocaría en el examen de 2.ª convocatoria del curso 2017-18.
  */
 int main() {
     const unsigned NUM_ETAPAS = 21;   

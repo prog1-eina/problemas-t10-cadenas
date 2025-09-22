@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
  * Última revisión: 15 de noviembre de 2021
@@ -13,7 +13,7 @@
  *           .\3-concatenar-camel-case.exe
  *       o en Linux y macOS
  *           ./3-concatenar-camel-case
-\******************************************************************************/
+ *****************************************************************************/
 
 #include <iostream>
 #include <string>
@@ -37,8 +37,8 @@ string ponerMayusculaInicial(const string palabra) {
 
 /*
  * Pre:  El vector «palabras» tiene al menos «numPalabras» componentes y todos
- *       los caracteres de todas las componentes del vector «palabras» son letras
- *       del alfabeto inglés.
+ *       los caracteres de todas las componentes del vector «palabras» son
+ *       letras del alfabeto inglés.
  * Post: Devuelve la cadena resultante de concatenar todas las palabras del 
  *       vector «palabras» utilizando CamelCase.
  */
@@ -64,7 +64,7 @@ string concatenarEnCamelCase(const string palabras[],
     return resultado;
 }
 
-/******************************************************************************/
+/*****************************************************************************/
 /*
  * Programa de pruebas de la función «concatenarEnCamelCase».
  * Debería escribir en la pantalla:
@@ -84,7 +84,8 @@ int main() {
     // Prueba con 0 componentes
     cout << concatenarEnCamelCase(QUIJOTE, 0) << endl;
 
-    const string JAVA[] = {"Array", "index", "out", "of", "bounds", "exception"};
+    const string JAVA[] = {"Array", "index", "out", "of", "bounds",
+                           "exception"};
     cout << concatenarEnCamelCase(JAVA, 6) << endl;
 
     // Prueba con cadenas vacías

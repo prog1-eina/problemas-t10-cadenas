@@ -1,4 +1,4 @@
-﻿/******************************************************************************\
+﻿/******************************************************************************
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
  * Última revisión: 7 de noviembre de 2020
@@ -13,7 +13,7 @@
  *           .\1-contar-letras.exe
  *       o en Linux y macOS
  *           ./1-contar-letras
-\******************************************************************************/
+ *****************************************************************************/
 
 #include <iostream>
 #include <string>
@@ -35,7 +35,7 @@ unsigned contarLetras(const string cad) {
     return cuenta;
 }
 
-/******************************************************************************/
+/*****************************************************************************/
 /*
  * Programa de pruebas de la función «contarLetras».
  * Debería escribir 6 veces «true» en la pantalla.

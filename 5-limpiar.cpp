@@ -1,4 +1,4 @@
-﻿/******************************************************************************\
+﻿/******************************************************************************
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
  * Última revisión: 16 de noviembre de 2020
@@ -15,7 +15,7 @@
  *           .\5-limpiar.exe
  *       o en Linux y macOS
  *           ./5-limpiar
-\******************************************************************************/
+ *****************************************************************************/
 #include <cctype>
 #include <iostream>
 #include <string>
@@ -63,7 +63,7 @@ string limpiar(const string palabra) {
 int main() {
     const unsigned NUM_PRUEBAS = 9;
     const string PRUEBAS[NUM_PRUEBAS] = { "", "En", "un", "Mancha,", 
-                            "corredor.", "-¡Oh!", "¿Duermen?", "1604", "H2SO4"};
+            "corredor.", "-¡Oh!", "¿Duermen?", "1604", "H2SO4"};
     for (unsigned i = 0; i < NUM_PRUEBAS; i++) {
         cout << '"' << limpiar(PRUEBAS[i]) << '"' << endl;
     }
