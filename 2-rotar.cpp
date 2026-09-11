@@ -1,7 +1,6 @@
 ﻿/******************************************************************************
  * Curso de Programación 1. Tema 10 (Caracteres y cadenas de caracteres)
  * Autores: Miguel Ángel Latre
- * Última revisión: 31 de octubre de 2024
  * Resumen: Soluciones a los problemas de Programación 1 planteados en la clase
  *          de problemas del tema 10.
  * Nota: El programa completo está contenido en este fichero, por lo que puede
